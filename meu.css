@@ -1,18 +1,19 @@
            *{
             margin:0px;
             padding: 0px;
+            display:flexbox;
             box-sizing: border-box;
-            display: flexbox;
            }
            body{
             background-color: beige;
-            margin: 10px 100px;
+            margin: 10px 50px;
             
            } 
            .main-box{
-            display: flexbox;
-            
+            display: flex;
+            justify-content: center;
             flex-wrap: wrap;
+            margin-top: 100px;
            }
             header{
               font-family: "Fugaz One", sans-serif;
@@ -20,7 +21,7 @@
               color:rgb(204, 255, 204);
               width: 100%;
               height: auto;
-              display: flexbox;
+              display: flex;
               justify-content: center;
               background-color: darkseagreen;
               border: 2px solid white;
@@ -28,29 +29,24 @@
               padding: 8px;
             }
              img{
-              display:inline-block;
-              width: 92%;
+              width: 80%;
               height:auto;
               margin: 12px;
+              float: left;
             }
             h2 {
               color: darkseagreen;
-              display: flex;
-              width: 100%;
-              height: auto;
-              font-size: 30px;
-              padding-right: 50px;
-              margin: 18px 10px;
+              font-size: 28px;
+              margin: 5px 0px;
+             
             }
             .box-ingr ul{
-              width: 100%;
-              height: auto;
+              
               font-size: 20px;
               letter-spacing: 1.3;
               line-height: 1.5;
               column-count: 2;
-              padding: 5px 10px;
-              margin-bottom: 10px;
+              display: inline;
             }
             .linktable   {
               display: inline-block;
@@ -64,27 +60,31 @@
             }
             a:hover{
               color: lightgreen;
-          
             }
             a{
               color: black;
             }
+            .mp h2{
+              margin: 12px;
+              font-size: 28px;
+            }
 
-            .box-preparo p {
-              display: inline-flexbox;
-              font-size: 20px;
-              letter-spacing: 1.5;
-              line-height: 1.5;
-              margin: 10px;
-              text-align: justify;
+                  .box-preparo p {
+                    display: inline-block;
+          font-size: 24px;
+          text-align: justify;
+          line-height: 1.5;
+          margin: 0px 100px;
+          padding: 20px 0px ;
 
             }
             .end {
-             display: inline-flexbox;
-              font-size: 20px;
-              text-align: justify;
-              letter-spacing: 1.5;
-              line-height: 1.5;
+              display: inline-block;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0px 100px;
+    padding: 20px 0px ;
             }
   
       
